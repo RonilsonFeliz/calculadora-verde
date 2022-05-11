@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body
+{
+    background-color: rgb(167, 91, 238);
+    text-align: center;
+    color: rgb(0, 0, 0); /*color serve para mudar a cor de textos e tbm muda borders*/
+}
+
+button
+{
+    border-color: black;
+    border-style: outset; /*da efeito 3d ao botão*/
+    border-radius: 50px;
+    text-decoration: solid;
+}
+
