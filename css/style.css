@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body
+{
+    background-color: rgb(167, 91, 238);
+    text-align: center;
+    color: rgb(0, 0, 0); /*color serve para mudar a cor de textos e tbm muda borders*/
+}
+
+button
+{
+    border-color: black;
+    border-style: outset; /*da efeito 3d ao botão*/
+    border-radius: 50px;
+    text-decoration: solid;
+}
+
+
+#container{
+ width: 290px;
+ text-align: center;
+ height: auto;
+margin: 4px auto;
+}
+
+#calculadora{
+width: 234px;
+height: 230px;
+margin: 0 auto;
+padding: 2px;
+background-color: aqua;
+}
+.input-valor{
+    margin: 8px auto;
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: right;
+    color: black;
+    padding: 4px;
+    background-color: aliceblue;
+    box-shadow: inset -1px -1px 4px -1px ;
+}
+
+.key li{
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    color: aquamarine;
+    background-color: blue;
+    cursor: pointer;
+    float: left;
+    margin: 0px 3px 1px 0px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 0px 3px 1px 0px #444;
+    list-style: none;
+}
+.key li:hover{
+    background-color: cornsilk;
+    color: darkgreen;
+    transition: 0.2s;
+}
+
+.key li:active{
+    box-shadow: 0px 1px 1px 0px #444;
+}
+
+.verificar{
+    width: 93.4% !important;
+}
